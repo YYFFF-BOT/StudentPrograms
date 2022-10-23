@@ -1,8 +1,8 @@
-# StudentPrograms
+# Student Programs
 Record of all programs done during the univercity student period.
 
 
-## Technology stack
+## Technology Stack Included
 ### AircraftWars:
 Python.
 
