@@ -7,13 +7,13 @@ Record of all programs done during the univercity student period.
 Python.
 
 ### DatabaseWebPage:
-Python 
+Python \n
 HTML
 SQL
 
 ### GrabingGame:
 Java 
-Gradle,
+Gradle
 BFS algorithm
 
 ### TableBallGame:
