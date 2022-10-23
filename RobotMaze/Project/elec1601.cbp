@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="elec1601" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/elec1601" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/RIKU/Desktop/elec1601/SDL2-2.0.16/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="C:/Users/RIKU/Desktop/elec1601/SDL2_gfx-1.0.1" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+					<Add directory="C:/Users/RIKU/Desktop/elec1601/SDL2-2.0.16/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/elec1601" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/ELEC1601/elec1601/SDL2_gfx-1.0.1" />
+			<Add directory="D:/ELEC1601/elec1601/SDL2-2.0.16/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-Imingw32 -ISDL2main -ISDL2" />
+			<Add directory="D:/ELEC1601/elec1601/SDL2-2.0.16/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="formulas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="formulas.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="robot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="robot.h" />
+		<Unit filename="structures.h" />
+		<Unit filename="wall.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wall.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
