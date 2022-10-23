@@ -1,4 +1,25 @@
 # StudentPrograms
-Record of all programs done during the student period.
+Record of all programs done during the univercity student period.
 
-这里记录了学生时期所做的大作业。其中会提及这个作业所用到的技术。
+
+## Technology stack
+### AircraftWars:
+Python.
+
+### DatabaseWebPage:
+Python 
+HTML
+SQL
+
+### GrabingGame:
+Java 
+Gradle,
+BFS algorithm
+
+### TableBallGame:
+Basic Java
+Gradle
+Design patterns include:
+Builder pattern
+Facotry pattern
+Strategy pattern
