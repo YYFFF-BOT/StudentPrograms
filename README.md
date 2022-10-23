@@ -7,19 +7,10 @@ Record of all programs done during the univercity student period.
 Python.
 
 ### DatabaseWebPage:
-Python \n
-HTML
-SQL
+Python | HTML | SQL
 
 ### GrabingGame:
-Java 
-Gradle
-BFS algorithm
+Java | Gradle | BFS algorithm
 
 ### TableBallGame:
-Basic Java
-Gradle
-Design patterns include:
-Builder pattern
-Facotry pattern
-Strategy pattern
+Basic Java | Gradle | Design patterns include: Builder, Facotry, Strategy
