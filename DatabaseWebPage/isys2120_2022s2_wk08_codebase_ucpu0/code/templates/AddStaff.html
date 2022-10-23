@@ -1,0 +1,46 @@
+{% include 'top.html' %}
+
+<div id="content">
+
+    <form class="pure-form pure-form-stacked login" method="POST" action="{{ url_for('add_academic_staff') }}">
+        <h2>Add new classroom</h2>
+        id,name,deptid,password,address,salary
+        <input type = "text" name = "id" placeholder="Enter the Staff id" required></input>
+        <input type = "text" name = "name" placeholder="Enter the Staff name" required></input>
+        <input type = "text" name = "deptid" placeholder="Enter the Department id" required></input>
+        <input type = "text" name = "password" placeholder="Enter the password" required></input>
+        <input type = "text" name = "address" placeholder="Enter the address" required></input>
+        <input type = "text" name = "salary" placeholder="Enter the salary" required></input>
+        <button class="pure-button pure-button-primary" type = 'submit'>Submit</button>
+    </form>
+
+    <div id="content">
+        <div id="container">
+            <h1 class="page-title">Staff</h1>
+            <table class="pure-table">
+                <thead>
+                    <tr><th>Id</th><th>Name</th><th>Deptid</th><th>Adress</th></tr>
+                </thead>
+                <tbody>
+                    {% for val in results %}
+                        <tr>
+                            <td> {{val[0]}}</td>
+                            <td> {{val[1]}}</td>
+                            <td> {{val[2]}}</td>
+                            <td> {{val[3]}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </body>
+
+
+
+
+
+</div>
+
+</body>
+</html>

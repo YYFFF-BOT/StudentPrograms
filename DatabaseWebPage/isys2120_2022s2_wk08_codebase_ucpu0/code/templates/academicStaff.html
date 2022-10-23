@@ -1,0 +1,23 @@
+{% include 'top.html' %}
+<div id="content">
+    <div id="container">
+        <h1 class="page-title">Academic staffs</h1>
+        <table class="pure-table">
+            <thead>
+                <tr><th>id</th><th>name</th><th>department</th><th>address</th></tr>
+            </thead>
+            <tbody>
+                {% for staff in academic_staff %}
+                    <tr>
+						<td> {{staff[0]}}</td>
+                <td> {{staff[1]}} </td>
+                <td> {{staff[2]}} </td>
+                <td> {{staff[3]}} </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

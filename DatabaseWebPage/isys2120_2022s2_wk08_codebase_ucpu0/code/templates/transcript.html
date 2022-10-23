@@ -1,0 +1,38 @@
+{% include 'top.html' %}
+<div id="content">
+    <div id="container">
+        <h1 class="page-title">Units of Study Available</h1>
+        <table class="pure-table">
+        <thead>
+            <tr><th>UOS Code</th><th>UOS Name</th><th>Credits</th><th>Year</th><th>Semester</th><th>Grade</th></tr>
+        </thead>
+        <tbody>
+            <!-- TODO
+                Now it's your turn,
+                try and iterate through the results you get from the database:
+                Files you will look at:
+                    - database.py (perform the SQL query)
+                    - main.py (get the rendering working)
+                    - units.html [as an example, you'll be doing something similar ;) ]
+
+                Good luck :)
+
+            -->
+                {% for transcript in transcripts %}
+                    <tr>
+						<td> {{transcript[0]}}</td>
+                        <td> {{transcript[1]}} </td>
+                        <td> {{transcript[2]}} </td>
+                        <td> {{transcript[3]}} </td>
+                        <td> {{transcript[4]}} </td>
+                        <td> {{transcript[5]}} </td>
+                    </tr>
+                {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</div>
+</body>
+</html>
+
+

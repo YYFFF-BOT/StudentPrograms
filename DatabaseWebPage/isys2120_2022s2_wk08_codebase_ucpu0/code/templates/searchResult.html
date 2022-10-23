@@ -1,0 +1,46 @@
+{% include 'top.html' %}
+    <div id="content">
+        <form class="pure-form pure-form-stacked login" method="POST" action="{{ url_for('search_academic_staff') }}">
+            <h2>Search for a staff</h2>
+            <input type="text" name="name" placeholder="Staff name" required>
+            <input type="text" name="deptid" placeholder="Department id" required>
+            <button class="pure-button pure-button-primary" type = 'submit'>Submit</button>
+        </form>
+    </div>
+    </body>
+
+
+    <div id="content">
+        <div id="container">
+            <h1 class="page-title">Staff Found</h1>
+            <table class="pure-table">
+                <thead>
+                    <tr><th>Staff id</th><th>Staff name</th><th>Deptid</th></tr>
+                </thead>
+                <tbody>
+
+                    {% for val in results %}
+                        <tr>
+                            <td> {{val[0]}}</td>
+                            <td> {{val[1]}} </td>
+                            <td> {{val[2]}} </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
