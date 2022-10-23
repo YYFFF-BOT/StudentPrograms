@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lawnlayer.LawnLayerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-10-23T13:50:02" hostname="DESKTOP-M2LNC1A" time="0.175">
+  <properties/>
+  <testcase name="testGetRoute()" classname="lawnlayer.LawnLayerTest" time="0.081"/>
+  <testcase name="testRight()" classname="lawnlayer.LawnLayerTest" time="0.051"/>
+  <testcase name="testDown()" classname="lawnlayer.LawnLayerTest" time="0.003"/>
+  <testcase name="testLeft()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <testcase name="testUp()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <testcase name="testGetGrid()" classname="lawnlayer.LawnLayerTest" time="0.001"/>
+  <testcase name="testHasEnymy()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <testcase name="testGetDrawer()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <testcase name="testGetPlayer()" classname="lawnlayer.LawnLayerTest" time="0.001"/>
+  <testcase name="testRender()" classname="lawnlayer.LawnLayerTest" time="0.004"/>
+  <testcase name="testPlayerLoseLive()" classname="lawnlayer.LawnLayerTest" time="0.001"/>
+  <testcase name="testLawnLayer()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <testcase name="testUpdate()" classname="lawnlayer.LawnLayerTest" time="0.011"/>
+  <testcase name="testKeyReleased()" classname="lawnlayer.LawnLayerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
