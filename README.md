@@ -7,7 +7,7 @@ Record of all programs done during the univercity student period.
 Python
 
 ### AlgorithmTree:
-Python | Tree preorder serch algorithm
+Python | Tree preorder search algorithm
 
 ### AlgorithmGraph
 Python | Graph DFS algorithm
