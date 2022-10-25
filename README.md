@@ -1,5 +1,7 @@
 # Student Programs
-Record of all programs done during the univercity student period.
+
+This is a record of all programs done during the univercity student period.
+The repo owner is in undergraduate, semester 3.
 
 ## Done
 ### AircraftWars:
