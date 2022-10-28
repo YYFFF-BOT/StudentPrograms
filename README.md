@@ -1,8 +1,8 @@
 # Student Programs
 
-This is a record of all programs done during the univercity student period.
-The repo owner is in undergraduate, semester 3.
-
+- This is a record of all programs done during the univercity student period.  
+- The repo owner is in undergraduate, semester 3.  
+- [For the schooldmates](https://github.com/YYFFF-BOT/USYD-Review).  
 ## Done
 ### AircraftWars:
 Python
