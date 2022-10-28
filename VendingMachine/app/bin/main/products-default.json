@@ -1,0 +1,114 @@
+[
+  {
+    "id": "min",
+    "name": "Mineral Water",
+    "category": "Drinks",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "spr",
+    "name": "Sprite",
+    "category": "Drinks",
+    "quantity": "7",
+    "price": "2.3"
+  },
+  {
+    "id": "coc",
+    "name": "Coca Cola",
+    "category": "Drinks",
+    "quantity": "7",
+    "price": "2.1"
+  },
+  {
+    "id": "pep",
+    "name": "Pepsi",
+    "category": "Drinks",
+    "quantity": "7",
+    "price": "2"
+  },
+  {
+    "id": "jui",
+    "name": "Juice",
+    "category": "Drinks",
+    "quantity": "7",
+    "price": "1.5"
+  },
+  {
+    "id": "mar",
+    "name": "Mars",
+    "category": "Chocolates",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "mm",
+    "name": "M&M",
+    "category": "Chocolates",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "bou",
+    "name": "Bounty",
+    "category": "Chocolates",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "sni",
+    "name": "Snickers",
+    "category": "Chocolates",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "smi",
+    "name": "Smiths",
+    "category": "Chips",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "pri",
+    "name": "Pringles",
+    "category": "Chips",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "ket",
+    "name": "Kettle",
+    "category": "Chips",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "thi",
+    "name": "Thins",
+    "category": "Chips",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "men",
+    "name": "Mentos",
+    "category": "Candies",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "sou",
+    "name": "Sour Patch",
+    "category": "Candies",
+    "quantity": "7",
+    "price": "1"
+  },
+  {
+    "id": "ski",
+    "name": "Skittles",
+    "category": "Candies",
+    "quantity": "7",
+    "price": "1"
+  }
+]

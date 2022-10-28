@@ -1,0 +1,148 @@
+Cancelled your transaction!
+
+Change 50.00 - 5.90 = 44.10
+0Change breakdown: ($20 * 2) ($2 * 2) (10c * 1c)
+
+Change 10.00 - 7.00 = 3.00
+$Change breakdown: ($2 * 1) ($1 * 1)
+
+Change 1.85 - 1.00 = 0.85
+=Change breakdown: (50c * 1c) (20c * 1c) (10c * 1c) (5c * 1c)
+
+.Transaction completed: Valid card: Paid $5.90
+
+Not enough arguments: buy
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Not enough arguments: buy
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Not enough arguments: buy
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+2Payment method not given: Please use cash or card
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+No such product: lol*1
+
+No such product: lol*1
+
+No such product: lol*1
+
+Invalid format: lol
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid format: lol
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid format: lol
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid card info length
+
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid card info length
+
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid card details
+
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid card details
+
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Not enough stock: spr*999
+
+Not enough payment
+
+Invalid format: cash
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid format: card
+
+}Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+mCorrect card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+8Please type 'help verbose' for detailed command formats
+
+Invalid cash format: Null
+"Invalid cash format: Missing '-'
+'Invalid cash format: Length incorrect
+$Invalid cash format: End with '-' 
+'Invalid cash format: Length incorrect
+/Invalid cash format: Number of cash incorrect
+)Invalid cash format: Invalid cash type 
+Invalid cash format: Null
+Invalid cash format: Null
+$Invalid cash format: End with '-' 
+Invalid cash format: Null
+%[Accounts] (username,password,role)
+	[Buyer]
+acdfe,anma,buyer
+abscdfe,ahenma,buyer
+buyer1,b1,buyer
+
+[Seller]
+seller1,s1,seller
+[Cashier]
+cashier1,c1,cashier
+	[Owner]
+owner1,o1,owner
+
+
+@|=============================================================|
+@| [id]   [name]            [category]      [quantity] [price] |
+@|-------------------------------------------------------------|
+@| pri    Pringles          Chips              7         1.0   |
+@| smi    Smiths            Chips              7         1.0   |
+@| thi    Thins             Chips              7         1.0   |
+@| ket    Kettle            Chips              7         1.0   |
+A|                                                             |
+@| ski    Skittles          Candies            7         1.0   |
+@| men    Mentos            Candies            7         1.0   |
+@| sou    Sour Patch        Candies            7         1.0   |
+A|                                                             |
+@| min    Mineral Water     Drinks             7         1.0   |
+@| spr    Sprite            Drinks             7         2.3   |
+@| coc    Coca Cola         Drinks             7         2.1   |
+@| pep    Pepsi             Drinks             7         2.0   |
+@| jui    Juice             Drinks             7         1.5   |
+A|                                                             |
+@| mm     M&M               Chocolates         7         1.0   |
+@| bou    Bounty            Chocolates         7         1.0   |
+@| sni    Snickers          Chocolates         7         1.0   |
+@| mar    Mars              Chocolates         7         1.0   |
+A|                                                             |
+@|=============================================================|
+
+xCash buying command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+hCard buying command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+

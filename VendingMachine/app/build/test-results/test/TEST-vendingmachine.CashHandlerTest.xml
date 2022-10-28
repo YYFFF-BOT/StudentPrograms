@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vendingmachine.CashHandlerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-28T10:57:49" hostname="DESKTOP-M2LNC1A" time="0.006">
+  <properties/>
+  <testcase name="testGetCashAmount()" classname="vendingmachine.CashHandlerTest" time="0.003"/>
+  <testcase name="testIsVaildCashFormat()" classname="vendingmachine.CashHandlerTest" time="0.001"/>
+  <testcase name="testGetCashAmountHashMap()" classname="vendingmachine.CashHandlerTest" time="0.001"/>
+  <testcase name="testGetChanges()" classname="vendingmachine.CashHandlerTest" time="0.0"/>
+  <testcase name="testIsVaildCashCommand()" classname="vendingmachine.CashHandlerTest" time="0.001"/>
+  <system-out><![CDATA[Invalid cash format: Null
+Invalid cash format: Missing '-'
+Invalid cash format: Length incorrect
+Invalid cash format: End with '-' 
+Invalid cash format: Length incorrect
+Invalid cash format: Number of cash incorrect
+Invalid cash format: Invalid cash type 
+Invalid cash format: Null
+Invalid cash format: Null
+Invalid cash format: End with '-' 
+Invalid cash format: Null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

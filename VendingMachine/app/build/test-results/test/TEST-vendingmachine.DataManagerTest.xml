@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vendingmachine.DataManagerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-10-28T10:57:49" hostname="DESKTOP-M2LNC1A" time="0.026">
+  <properties/>
+  <testcase name="constructorTest()" classname="vendingmachine.DataManagerTest" time="0.001"/>
+  <testcase name="creditCardsTest()" classname="vendingmachine.DataManagerTest" time="0.006"/>
+  <testcase name="accountClassTest()" classname="vendingmachine.DataManagerTest" time="0.002"/>
+  <testcase name="productClassTest()" classname="vendingmachine.DataManagerTest" time="0.002"/>
+  <testcase name="accountTest()" classname="vendingmachine.DataManagerTest" time="0.004"/>
+  <testcase name="productsTest()" classname="vendingmachine.DataManagerTest" time="0.005"/>
+  <testcase name="cardClassTest()" classname="vendingmachine.DataManagerTest" time="0.002"/>
+  <testcase name="innerClassTest()" classname="vendingmachine.DataManagerTest" time="0.001"/>
+  <system-out><![CDATA[[Accounts] (username,password,role)
+[Buyer]
+acdfe,anma,buyer
+abscdfe,ahenma,buyer
+buyer1,b1,buyer
+[Seller]
+seller1,s1,seller
+[Cashier]
+cashier1,c1,cashier
+[Owner]
+owner1,o1,owner
+
+
+|=============================================================|
+| [id]   [name]            [category]      [quantity] [price] |
+|-------------------------------------------------------------|
+| pri    Pringles          Chips              7         1.0   |
+| smi    Smiths            Chips              7         1.0   |
+| thi    Thins             Chips              7         1.0   |
+| ket    Kettle            Chips              7         1.0   |
+|                                                             |
+| ski    Skittles          Candies            7         1.0   |
+| men    Mentos            Candies            7         1.0   |
+| sou    Sour Patch        Candies            7         1.0   |
+|                                                             |
+| min    Mineral Water     Drinks             7         1.0   |
+| spr    Sprite            Drinks             7         2.3   |
+| coc    Coca Cola         Drinks             7         2.1   |
+| pep    Pepsi             Drinks             7         2.0   |
+| jui    Juice             Drinks             7         1.5   |
+|                                                             |
+| mm     M&M               Chocolates         7         1.0   |
+| bou    Bounty            Chocolates         7         1.0   |
+| sni    Snickers          Chocolates         7         1.0   |
+| mar    Mars              Chocolates         7         1.0   |
+|                                                             |
+|=============================================================|
+
+Cash buying command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Card buying command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

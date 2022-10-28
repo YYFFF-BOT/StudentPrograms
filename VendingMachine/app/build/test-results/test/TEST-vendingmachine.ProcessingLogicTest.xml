@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vendingmachine.ProcessingLogicTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-28T10:57:49" hostname="DESKTOP-M2LNC1A" time="0.07">
+  <properties/>
+  <testcase name="buyLogicTest()" classname="vendingmachine.ProcessingLogicTest" time="0.067"/>
+  <testcase name="constructorTest()" classname="vendingmachine.ProcessingLogicTest" time="0.003"/>
+  <system-out><![CDATA[Cancelled your transaction!
+
+Change 50.00 - 5.90 = 44.10
+Change breakdown: ($20 * 2) ($2 * 2) (10c * 1c)
+
+Change 10.00 - 7.00 = 3.00
+Change breakdown: ($2 * 1) ($1 * 1)
+
+Change 1.85 - 1.00 = 0.85
+Change breakdown: (50c * 1c) (20c * 1c) (10c * 1c) (5c * 1c)
+
+Transaction completed: Valid card: Paid $5.90
+
+Not enough arguments: buy
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Not enough arguments: buy
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Not enough arguments: buy
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Payment method not given: Please use cash or card
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+No such product: lol*1
+
+No such product: lol*1
+
+No such product: lol*1
+
+Invalid format: lol
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid format: lol
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid format: lol
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid card info length
+
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid card info length
+
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid card details
+
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid card details
+
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Not enough stock: spr*999
+
+Not enough payment
+
+Invalid format: cash
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+Invalid format: card
+
+Correct cash buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] cash <Denomination>*<Quantity> [<D>*<Q> [...]] [cancel]
+Correct card buy command: buy <ProductId>*<Quantity> [<P>*<Q> [...]] card <CardHolder> <CardNumber> [cancel]
+Please type 'help verbose' for detailed command formats
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
